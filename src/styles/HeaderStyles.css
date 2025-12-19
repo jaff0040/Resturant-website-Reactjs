@@ -1,0 +1,59 @@
+/* Desktop Navigation */
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-menu li {
+  margin: 0;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navigation-menu li a:hover {
+  color: goldenrod;
+}
+
+/* Active link */
+.active {
+  color: goldenrod !important;
+  font-weight: 700 !important;
+}
+
+/* Mobile Navigation */
+.mobile-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-navigation li {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.mobile-navigation li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+/* Mobile hover */
+.mobile-navigation li a:hover {
+  color: goldenrod;
+}
